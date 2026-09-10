@@ -490,7 +490,7 @@ export const SettingsPage: React.FC<SettingsPageProps> = ({
           </div>
           <div>
             <span style={{ color: 'var(--text-muted)', display: 'block', fontSize: '10.5px' }}>{lang === 'ru' ? 'Лицензия' : 'License'}</span>
-            <span style={{ color: 'var(--accent-emerald)', fontWeight: 600 }}>MIT Open Source</span>
+            <span style={{ color: 'var(--accent-primary)', fontWeight: 600 }}>{lang === 'ru' ? 'Source-Available (Защищенная авторская)' : 'Source-Available (Storm License)'}</span>
           </div>
         </div>
       </div>

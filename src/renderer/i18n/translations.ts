@@ -9,8 +9,8 @@ export const translations = {
     statusOffline: 'Не в сети',
     uptime: 'Аптайм',
     searchPlaceholder: 'Поиск (Ctrl + K)...',
-    openLinuxTerminal: 'Linux Konsole',
-    linuxTerminalTooltip: 'Открыть окно в стиле Arch Linux / Konsole',
+    openLinuxTerminal: 'Linux Console',
+    linuxTerminalTooltip: 'Открыть окно в стиле Arch Linux / Console',
 
     // Menu
     menuTitle: 'Меню',
@@ -214,8 +214,8 @@ export const translations = {
     statusOffline: 'Offline',
     uptime: 'Uptime',
     searchPlaceholder: 'Search (Ctrl + K)...',
-    openLinuxTerminal: 'Linux Konsole',
-    linuxTerminalTooltip: 'Open Arch Linux / Konsole style window',
+    openLinuxTerminal: 'Linux Console',
+    linuxTerminalTooltip: 'Open Arch Linux / Console style window',
 
     // Menu
     menuTitle: 'Menu',

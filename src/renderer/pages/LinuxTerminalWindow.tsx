@@ -124,7 +124,7 @@ export const LinuxTerminalWindow: React.FC = () => {
         {
           id: 'o_' + Date.now(),
           type: 'out',
-          text: `STORM Linux-Style Konsole Shell\r\nBuilt-in commands:\r\n  neofetch    - Print system info banner\r\n  free -m     - Show memory statistics\r\n  df -h       - Show disk partitions\r\n  uname -a    - Show OS kernel information\r\n  clear       - Clear screen\r\n  ... or type any Windows / CMD / PowerShell command (e.g. ipconfig, ping, whoami)`
+          text: `STORM Linux-Style Console Shell\r\nBuilt-in commands:\r\n  neofetch    - Print system info banner\r\n  free -m     - Show memory statistics\r\n  df -h       - Show disk partitions\r\n  uname -a    - Show OS kernel information\r\n  clear       - Clear screen\r\n  ... or type any Windows / CMD / PowerShell command (e.g. ipconfig, ping, whoami)`
         }
       ]);
       setHistory((prev) => [trimmed, ...prev.filter((h) => h !== trimmed)].slice(0, 30));
@@ -395,7 +395,7 @@ export const LinuxTerminalWindow: React.FC = () => {
           <img src={STORM_LOGO} alt="STORM" style={{ width: '13px', height: '13px', objectFit: 'contain' }} />
           <span style={{ color: 'var(--accent-primary)', fontWeight: 600 }}>{username}@{hostname}</span>
           <span>:</span>
-          <span style={{ color: 'var(--text-secondary)' }}>storm-konsole</span>
+          <span style={{ color: 'var(--text-secondary)' }}>storm-console</span>
         </div>
 
         {/* Right Status & Quick Theme Switcher */}
@@ -516,7 +516,7 @@ export const LinuxTerminalWindow: React.FC = () => {
                   <div><strong style={{ color: 'var(--accent-primary)' }}>Shell:</strong> Windows PowerShell 7.4 / CMD</div>
                   <div><strong style={{ color: 'var(--accent-primary)' }}>DE:</strong> Windows Fluent Acrylic</div>
                   <div><strong style={{ color: 'var(--accent-primary)' }}>WM:</strong> DWM (Desktop Window Manager)</div>
-                  <div><strong style={{ color: 'var(--accent-primary)' }}>Terminal:</strong> STORM Konsole</div>
+                  <div><strong style={{ color: 'var(--accent-primary)' }}>Terminal:</strong> STORM Console</div>
                   <div><strong style={{ color: 'var(--accent-primary)' }}>Theme:</strong> {currentThemeObj.label} ({theme})</div>
                   <div><strong style={{ color: 'var(--accent-primary)' }}>CPU:</strong> {cpuName} @ {cpuSpeed}</div>
                   <div><strong style={{ color: 'var(--accent-primary)' }}>GPU:</strong> {gpuName}</div>

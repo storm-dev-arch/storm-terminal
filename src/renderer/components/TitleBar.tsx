@@ -118,10 +118,10 @@ export const TitleBar: React.FC<TitleBarProps> = memo(({
 
       {/* Right Controls */}
       <div style={{ display: 'flex', alignItems: 'center', height: '100%' }} className="app-region-no-drag">
-        {/* Linux Konsole Launcher */}
+        {/* Linux Console Launcher */}
         <button
           onClick={() => window.stormAPI?.openLinuxTerminal()}
-          title={t.linuxTerminalTooltip || 'Linux Konsole'}
+          title={t.linuxTerminalTooltip || 'Linux Console'}
           style={{
             height: '22px',
             padding: '0 8px',
@@ -148,7 +148,7 @@ export const TitleBar: React.FC<TitleBarProps> = memo(({
           }}
         >
           <Terminal size={11} style={{ color: '#38bdf8' }} />
-          <span>Konsole</span>
+          <span>Console</span>
         </button>
 
         {/* Subtle Language Pill */}

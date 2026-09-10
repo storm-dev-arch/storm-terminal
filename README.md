@@ -8,7 +8,7 @@
 [![React](https://img.shields.io/badge/React-18.3.1-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.7.3-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://typescriptlang.org)
 [![Vite](https://img.shields.io/badge/Vite-6.1.0-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev)
-[![License](https://img.shields.io/badge/License-MIT-10B981?style=for-the-badge)](LICENSE)
+[![License](https://img.shields.io/badge/License-Proprietary%20%2F%20Source--Available-EF4444?style=for-the-badge)](LICENSE)
 
 **STORM TERMINAL** — это высокопроизводительная настольная система мониторинга оборудования, бенчмаркинга и диагностики операционной системы Windows с нулевым оверхедом на процессор и бескаркасным интерфейсом в стиле хакерских терминалов.
 
@@ -155,9 +155,16 @@ storm-terminal/
 
 ---
 
-## 📄 Лицензия
-
-Проект распространяется под свободной лицензией **MIT License**. Подробнее см. в файле [LICENSE](LICENSE).
+## 📄 Лицензия и Авторские права
+ 
+ Проект распространяется по модели **Source-Available & Non-Commercial License**. Исходный код открыт для аудита, обучения и сборки для личного использования.
+ 
+ ⚠️ **Строго запрещено:**
+ * Присвоение авторства, ребрендинг и удаление плашек авторства (*Made by Storm*).
+ * Коммерческое использование, продажа программы или её фрагментов без письменного разрешения автора.
+ * Несанкционированное распространение модифицированных сборок.
+ 
+ Подробнее см. в файле [LICENSE](LICENSE). Все права защищены © 2026 [Storm](https://github.com/storm-dev-arch).
 
 ---
 
